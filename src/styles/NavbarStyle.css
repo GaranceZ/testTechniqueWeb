@@ -1,0 +1,132 @@
+.NavbarContainer {
+    height: 116px;
+    background-color: var(--white);
+    font-family: var(--font);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.Links{
+    display: flex;
+}
+
+.Links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+.Links li{
+    display: inline; 
+    position: relative;
+    margin-right: 35px;
+    font-size: 16px;
+    line-height: 48px;
+    text-align: center;
+    width: 83px; 
+    font-weight: 600;
+}
+
+.Links li:last-child{
+    margin-right: 0;
+}
+
+.linksList li::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0.2rem; /* Utilisation de rem pour la hauteur de l'underline */
+    background: var(--green);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: width 0.3s ease;
+    bottom: -5px; 
+}
+
+.linksList li:hover{
+    cursor: pointer;
+
+    &:after{
+        width: 80%; 
+    }
+}
+
+
+.LeftPart p{
+    margin: 0;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.RightPart{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+
+.LoginRegisterContainer {
+    display: flex;
+    gap: 10px;
+    
+}
+
+.LoginRegisterContainer .Login{
+    background-color: transparent;
+    position: relative;
+    color: var(--black);
+}
+
+.LoginRegisterContainer .Login::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0.2rem; /* Utilisation de rem pour la hauteur de l'underline */
+    background: var(--green);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: width 0.3s ease;
+    bottom: 10px; 
+}
+
+.LoginRegisterContainer .Login:hover{
+    cursor: pointer;
+    &:after{
+        width: 50%; 
+    }
+}
+
+.LoginRegisterContainer .Register{
+    background-color: var(--green);
+    color: var(--white);
+    transition: background-color 0.3s ease;
+
+    &:hover{
+        background-color: #619349;
+    }
+}
+
+.LoginRegisterContainer button  {
+    padding: 15px;
+    border-radius: 3px ;
+    border: none;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+
+    &:hover{
+        cursor: pointer;
+    }
+
+}
+
+
+
