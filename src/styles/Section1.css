@@ -48,7 +48,6 @@
 }
 
 .ImageSection1 {
-    /* background-color: blue; */
     height: 100%;
     width: 50%;
     align-self: flex-end;
@@ -57,7 +56,6 @@
 }
 
 .BigImage{
-    background-color: brown;
     position: absolute;
     height: 100%;
     width: 50%;
