@@ -1,0 +1,48 @@
+.MainContainerSection4{
+    height: 395px;
+    width: 100%;
+    /* background-color: blue; */
+    margin-bottom: 100px;
+}
+
+.TextArrowSection4{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.TextSection4 h1{
+    width: 300px;
+    text-align: left;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 65px;
+    color: var(--black);
+
+    & span{
+        color: var(--green);
+    }
+}
+
+.ArrowSection4{
+    display: flex;
+    gap: 48px;
+}
+
+
+.ArrowSection4 i{
+    font-size: 48px;
+    border: 2px solid var(--green);
+    border-radius: 100px;
+    padding: 5px;
+    color: var(--green);
+
+    &:hover{
+        cursor: pointer;
+        color: var(--white);
+        background-color: var(--green);
+        transition: all 0.2s;
+    }
+}

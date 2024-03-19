@@ -4,7 +4,7 @@
     height: 717px;
     flex-direction: row;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-bottom: 100px;
     gap: 100px;
 }
 
@@ -17,7 +17,7 @@
 
 .backgroundRectangle {
     height: 90%;
-    width: 80%;
+    width: 30vw;
     background-color: var(--green);
     position: absolute;
     bottom: 0;
@@ -30,7 +30,7 @@
     width: 320px;
     background-color: var(--black);
     position: absolute;
-    bottom: 5%;
+    bottom: 10%;
     right: 50%;
     border-radius: 20px;
     z-index: 2;
