@@ -10,9 +10,9 @@
 .TextSection1{
     background-color: var(--grey);
     display: flex;
-    position: absolute; /* Positioning relative to the parent container */
-    top: 50%; /* Move the top of the rectangle to the vertical center */
-    transform: translateY(-50%); /* Adjust to center the rectangle */
+    position: absolute; 
+    top: 50%; 
+    transform: translateY(-50%); 
     border-radius: 20px;
     width: 100%;
     height: 325px;
