@@ -4,6 +4,7 @@
     margin-bottom: 100px;
     display: flex;
     flex-direction: row;
+    font-family: var(--font);
 }
 
 .TextArrowSection4{
@@ -15,7 +16,7 @@
     align-items: center;
 }
 .TextSection4 h1{
-    width: 300px;
+    width: 350px;
     text-align: left;
     font-size: 48px;
     font-weight: 700;
@@ -154,7 +155,7 @@ overflow: auto;
     /* text-align: justify; */
     
     & p{
-       font-size: 20px;
+       font-size: 18px;
        line-height: 30px;
        font-weight: 300;
        color: var(--dark-grey);

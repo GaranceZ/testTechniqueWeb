@@ -5,6 +5,7 @@
     flex-direction: row;
     margin: 0 auto;
     margin-bottom: 100px;
+    font-family: var(--font);
     gap: 100px;
 }
 
