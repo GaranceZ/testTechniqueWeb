@@ -9,12 +9,12 @@ import Footer from '../components/Footer';
 const HomePage = () => {
     return ( 
         <>
-        <Navbar/>
+           <Navbar/>  
         <Section1/>
-        <Section2/>
-        <Section3/>
-        <Section4/>
-        <Footer/>
+         <Section2/>
+         <Section3/>
+         <Section4/>  
+         <Footer/>  
         </>
      );
 }

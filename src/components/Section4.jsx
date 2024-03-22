@@ -44,7 +44,7 @@ const Section4 = () => {
                         <div className="Comment">
                             <div className="CommentUser">
                                 <div className="UserPicture">
-                                <img src={process.env.PUBLIC_URL + '/assets/Section4/Users/User1.jpg'} alt="photo d'un utilisateur qui a laissé un commentaire" />
+                                <img src={process.env.PUBLIC_URL + '/assets/Section4/Users/User1.webp'} alt="photo d'un utilisateur qui a laissé un commentaire" />
                                 </div>
 
                                 <div className="UserInfo">
@@ -63,7 +63,7 @@ const Section4 = () => {
                         <div className="Comment">
                             <div className="CommentUser">
                                 <div className="UserPicture">
-                                <img src={process.env.PUBLIC_URL + '/assets/Section4/Users/User2.jpg'} alt="photo d'un utilisateur qui a laissé un commentaire" />
+                                <img src={process.env.PUBLIC_URL + '/assets/Section4/Users/User2.webp'} alt="photo d'un utilisateur qui a laissé un commentaire" />
                                 </div>
 
                                 <div className="UserInfo">
@@ -82,7 +82,7 @@ const Section4 = () => {
                         <div className="Comment">
                             <div className="CommentUser">
                                 <div className="UserPicture">
-                                <img src={process.env.PUBLIC_URL + '/assets/Section4/Users/User3.jpg'} alt="photo d'un utilisateur qui a laissé un commentaire" />
+                                <img src={process.env.PUBLIC_URL + '/assets/Section4/Users/User3.webp'} alt="photo d'un utilisateur qui a laissé un commentaire" />
                                 </div>
 
                                 <div className="UserInfo">
@@ -101,7 +101,7 @@ const Section4 = () => {
                         <div className="Comment">
                             <div className="CommentUser">
                                 <div className="UserPicture">
-                                <img src={process.env.PUBLIC_URL + '/assets/Section4/Users/User4.jpg'} alt="photo d'un utilisateur qui a laissé un commentaire" />
+                                <img src={process.env.PUBLIC_URL + '/assets/Section4/Users/User4.webp'} alt="photo d'un utilisateur qui a laissé un commentaire" />
                                 </div>
 
                                 <div className="UserInfo">
@@ -120,7 +120,7 @@ const Section4 = () => {
                         <div className="Comment">
                             <div className="CommentUser">
                                 <div className="UserPicture">
-                                <img src={process.env.PUBLIC_URL + '/assets/Section4/Users/User5.jpg'} alt="photo d'un utilisateur qui a laissé un commentaire" />
+                                <img src={process.env.PUBLIC_URL + '/assets/Section4/Users/User5.webp'} alt="photo d'un utilisateur qui a laissé un commentaire" />
                                 </div>
 
                                 <div className="UserInfo">

@@ -64,7 +64,7 @@ const Footer = () => {
                                 <li>Uk Privacy Policy</li>
                                 <li>Terms of Use</li>
                             </ul>
-                        </div>
+                        </div>                                                                           
                     </div>
 
 

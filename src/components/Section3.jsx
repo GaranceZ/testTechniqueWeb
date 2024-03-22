@@ -8,10 +8,10 @@ const Section3 = () => {
                 <div className="ImagesContainerSection3">
                     <div className="backgroundRectangle"></div>
                     <div className="Image1">
-                        <img src={process.env.PUBLIC_URL + '/assets/Section3/toppicture.jpg'} alt="image d'une femme devant un ordinateur avec un casque audio sur la tête" />
+                        <img src={process.env.PUBLIC_URL + '/assets/Section3/toppicture.webp'} alt="image d'une femme devant un ordinateur avec un casque audio sur la tête" />
                     </div>
                     <div className="Image2">
-                    <img src={process.env.PUBLIC_URL + '/assets/Section3/bottompicture.png'} alt="image d'une femme devant un ordinateur avec un casque audio sur la tête" />
+                    <img src={process.env.PUBLIC_URL + '/assets/Section3/bottompicture.webp'} alt="image d'une femme devant un ordinateur avec un casque audio sur la tête" />
                     </div>
                 </div>
 
