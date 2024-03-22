@@ -1,0 +1,387 @@
+
+@media only screen and (min-width: 768px) {
+.MainContainerFooter {
+    background-color: var(--black);
+    width: 100%;
+    height: 590px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    font-family: var(--font);
+}
+
+.Footer {
+    margin: 0 auto;
+    width: 85%;
+    height: 85%;
+    
+}
+
+.SocialLinks {
+    display: flex;
+    flex-direction: row;
+    height: 70%;
+    width: 100%;
+    
+}
+
+.Socials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 95%;
+    width: 50%;
+}
+
+.SocialsText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+
+
+    & h2 {
+        margin: 0;
+        padding: 0;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 44px;
+
+
+    }
+
+    & p {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 22px;
+        letter-spacing: 1px;
+        width: 310px;
+    }
+}
+
+
+
+.SocialNetworks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    width: 50%;
+    height: 10%;
+}
+
+.IconSocial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+
+
+    & i {
+        font-size: 42px;
+        color: var(--green);
+        border-radius: 10px;
+
+        &:hover {
+            cursor: pointer;
+            border-radius: 10px;
+            background-color: var(--light-green);
+            color: var(--black);
+            transition: all 0.3s ease-in;
+        }
+    }
+}
+
+
+
+.LinksFooter {
+    display: flex;
+    height: 50%;
+    margin: auto;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 40px;
+    
+
+    & ul {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        gap: 8px;
+        width: auto;
+        
+
+        & li {
+            
+            font-size: 14px;
+            line-height: 25px;
+            font-weight: 400;
+            color: var(--white);
+            
+
+            &:hover{
+                cursor: pointer;
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+
+.Newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    & h2 {
+        font-size: 24px;
+        line-height: 32px;
+        font-weight: 600;
+        color: var(--white);
+    }
+}
+
+
+.InputNews input {
+    width: 530px;
+    height: 52px;
+    background-color: var(--white);
+    border: none;
+    text-indent: 15px;
+    font-size: 14px;
+    font-weight: 400;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: var(--green);
+
+    &::placeholder {
+        color: var(--green);
+    }
+}
+
+.InputNews button {
+    height: auto;
+    width: 130px;
+    border: none;
+    padding: 19px;
+    background-color: var(--green);
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 400;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+    &:hover {
+        cursor: pointer;
+        background-color: var(--green-hover);
+        transition: all 0.3s ease-in;
+    }
+}
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .MainContainerFooter {
+        background-color: var(--black);
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--white);
+        font-family: var(--font);
+    }
+    
+    .Footer {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0 auto;
+        width: 90%;
+        height: 85%;
+        gap: 20px;
+        
+    }
+    
+    .SocialLinks {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        
+    }
+    
+    .Socials {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .SocialsText {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 60%;
+        height: 50%;
+    
+    
+        & h2 {
+            margin: 0;
+            padding: 0;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 38px;
+            width: 250px;
+    
+    
+        }
+    
+        & p {
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 20px;
+            letter-spacing: 1px;
+            width: 200px;
+        }
+    }
+    
+    
+    
+    .SocialNetworks {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        width: 40%;
+        height: 100%;
+    }
+    
+    .IconSocial {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        width: 50px;
+    
+    
+        & i {
+            font-size: 42px;
+            color: var(--green);
+            border-radius: 10px;
+    
+            &:hover {
+                cursor: pointer;
+                border-radius: 10px;
+                background-color: var(--light-green);
+                color: var(--black);
+                transition: all 0.3s ease-in;
+            }
+        }
+    }
+    
+    
+    
+    .LinksFooter {
+        display: flex;
+        /* justify-content: center; */
+        align-items: flex-start;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 15px;
+        width: 100%;
+        
+    
+        & ul {
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            gap: 5px;
+            width: auto;
+            
+    
+            & li {
+                
+                font-size: 10px;
+                line-height: 18px;
+                font-weight: 400;
+                color: var(--white);
+                
+    
+                &:hover{
+                    cursor: pointer;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    
+    
+    .Newsletter {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+        & h2 {
+            font-size: 14px;
+            line-height: 32px;
+            font-weight: 400;
+            color: var(--white);
+        }
+    }
+    
+    
+    .InputNews input {
+        width: 250px;
+        height: 36px;
+        background-color: var(--white);
+        border: none;
+        text-indent: 15px;
+        font-size: 12px;
+        font-weight: 400;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        color: var(--green);
+    
+        &::placeholder {
+            color: var(--green);
+        }
+    }
+    
+    .InputNews button {
+        height: auto;
+        width: 85px;
+        border: none;
+        padding: 12px;
+        background-color: var(--green);
+        color: var(--white);
+        font-size: 12px;
+        font-weight: 400;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    
+        &:hover {
+            cursor: pointer;
+            background-color: var(--green-hover);
+            transition: all 0.3s ease-in;
+        }
+    }
+    }

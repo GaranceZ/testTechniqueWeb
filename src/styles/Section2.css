@@ -1,0 +1,199 @@
+@media only screen and (min-width: 768px) {
+    .MainContainerSection2 {
+        height: 415px;
+        width: 85%;
+        margin: 50px auto 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 100px;
+
+        font-family: var(--font);
+    }
+
+    .CardSection2 {
+        height: 255px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+    }
+
+    .BigCard {
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        padding: 25px;
+        position: relative;
+
+        & h2 {
+            padding-top: 15px;
+            font-size: 24px;
+            font-weight: 700;
+
+        }
+
+        & p {
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 24px;
+            width: 245px;
+        }
+    }
+
+    .smallCard {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        height: 76px;
+        width: 76px;
+        position: absolute;
+        top: -38px;
+        /* Adjust as needed */
+        left: calc(20% - 38px);
+        /* Adjust as needed */
+
+        & i {
+            font-size: 48px;
+        }
+    }
+
+    .BigCard:nth-child(odd) .smallCard {
+        background-color: var(--green);
+
+        & i {
+            color: var(--white);
+        }
+    }
+
+    .BigCard:nth-child(even) .smallCard {
+        background-color: var(--grey);
+
+        & i {
+            color: var(--green);
+        }
+    }
+
+    .BigCard:nth-child(1),
+    .BigCard:nth-child(3) {
+        position: relative;
+        top: -15%;
+        background-color: var(--grey);
+    }
+
+
+
+    .BigCard:nth-child(2),
+    .BigCard:nth-child(4) {
+        position: relative;
+        bottom: -30%;
+        background-color: var(--green);
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .MainContainerSection2 {
+        height: 415px;
+        width: 100%;
+        margin: 50px auto 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 100px;
+        overflow: hidden;
+
+        font-family: var(--font);
+    }
+
+    .CardSection2 {
+        height: 500px;
+        display: flex;
+        position: relative;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        overflow: auto;
+        left: 5vw;
+        gap: 16px;
+    }
+
+    .BigCard {
+        border-radius: 20px;
+        width: 352px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        height: 252px;
+
+        & h2 {
+            padding-top: 15px;
+            font-size: 20px;
+            font-weight: 700;
+
+            position: relative;
+            left: 20px;
+
+        }
+
+        & p {
+            display: flex;
+            margin: 0 auto;
+            position: relative;
+            left: 20px;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 24px;
+            width: 240px;
+        }
+    }
+
+    .smallCard {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        height: 76px;
+        width: 76px;
+        position: absolute;
+        top: -38px;
+        left: calc(20% - 25px);
+
+        & i {
+            font-size: 48px;
+        }
+    }
+
+    .BigCard:nth-child(odd) .smallCard {
+        background-color: var(--green);
+
+        & i {
+            color: var(--white);
+        }
+    }
+
+    .BigCard:nth-child(even) .smallCard {
+        background-color: var(--grey);
+
+        & i {
+            color: var(--green);
+        }
+    }
+
+    .BigCard:nth-child(1),
+    .BigCard:nth-child(3) {
+        background-color: var(--grey);
+    }
+
+
+
+    .BigCard:nth-child(2),
+    .BigCard:nth-child(4) {
+        background-color: var(--green);
+    }
+
+}
