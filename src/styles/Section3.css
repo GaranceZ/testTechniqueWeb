@@ -30,7 +30,6 @@
     .Image1 {
         height: 480px;
         width: 320px;
-        background-color: var(--black);
         position: absolute;
         bottom: 10%;
         right: 50%;
@@ -54,7 +53,6 @@
     .Image2 {
         height: 480px;
         width: 320px;
-        background-color: var(--grey);
         position: absolute;
         bottom: 33%;
         right: 10%;
